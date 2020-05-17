@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App_header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #000080;
+  justify-content: center;
+  font-size: 24px;
+}
