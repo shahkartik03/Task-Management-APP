@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Board from "./Board";
+import React from "react";
+import "./App.css";
+import Board from "./components/Board";
 
 function App() {
   return (
     <div className="App">
-        <header className="App_header">TASK MANAGEMENT</header>
-        <Board />
+      <header className="App_header">TASK MANAGEMENT</header>
+      <Board />
     </div>
   );
 }

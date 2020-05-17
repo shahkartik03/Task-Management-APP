@@ -1,8 +1,8 @@
-import actions from './actionType';
+import actions from "./actionType";
 
 export const initState = {
-    items: [
-        /*{
+  items: [
+    /* {
             id: 'To_Do',
             name: 'To Do',
             cards: [
@@ -37,36 +37,39 @@ export const initState = {
                     name: 'card 33',
                 },
             ]
-        },*/
-    ]
+        }, */
+  ],
 };
 
 export function reducer(state = initState, action) {
-    switch (action.type) {
-        case actions.CREATE_ITEM:
-            return {
-                ...state,
-                items: state.items.concat(
-                    { id: action.payload.split(' ').join('_'),
-                    name: action.payload })
-            }
-        case actions.UPDATE_CARD_STATUS:
-            return {
-                items: action.payload
-            }
-        case actions.ADD_CARD:
-            return {
-                items: JSON.parse(JSON.stringify(action.payload)),
-            }
-        case actions.REMOVE_ITEM:
-            return {
-                items: state.items.filter(item => item.id !== action.payload)
-            }
-        case actions.REMOVE_CARD:
-            return {
-                items: JSON.parse(JSON.stringify(action.payload)),
-            }
-        default:
-            return state;
-    }
+  switch (action.type) {
+    case actions.CREATE_ITEM:
+      return {
+        ...state,
+        items: state.items.concat(
+          {
+            id: action.payload.split(" ").join("_"),
+            name: action.payload,
+          },
+        ),
+      };
+    case actions.UPDATE_CARD_STATUS:
+      return {
+        items: action.payload,
+      };
+    case actions.ADD_CARD:
+      return {
+        items: JSON.parse(JSON.stringify(action.payload)),
+      };
+    case actions.REMOVE_ITEM:
+      return {
+        items: state.items.filter((item) => item.id !== action.payload),
+      };
+    case actions.REMOVE_CARD:
+      return {
+        items: JSON.parse(JSON.stringify(action.payload)),
+      };
+    default:
+      return state;
+  }
 }

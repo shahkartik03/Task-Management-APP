@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6e8ad3-e4db-4f37-94f7-6aa141333989" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,6 +27,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1c28SRenSXraJQAbiG8SjTcUdU4" />
   <component name="ProjectViewState">
@@ -21,6 +45,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kartik\learning\copy\Task-Management-APP\src\components" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +64,56 @@
       <option name="presentableId" value="Default" />
       <updated>1589715326269</updated>
       <workItem from="1589715360689" duration="1569000" />
+      <workItem from="1589725340322" duration="7344000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589728693309">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="420" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1589728693309" />
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1589727745823">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589727745823" />
+    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1589727745822">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589727745822" />
+    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1589727745821">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589727745821" />
+    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1589727745823">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589727745823" />
+    <state x="184" y="15" key="SettingsEditor" timestamp="1589734733637">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="15" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589734733637" />
+    <state x="390" y="117" width="585" height="534" key="find.popup" timestamp="1589731918443">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="390" y="117" width="585" height="534" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1589731918443" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589734650818">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589734650818" />
   </component>
 </project>
