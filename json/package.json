@@ -1,0 +1,14 @@
+{
+  "name": "fake-json",
+  "version": "1.0.0",
+  "description": "fake rest ap for",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server --watch db.json"
+  },
+  "author": "kartik shah",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
