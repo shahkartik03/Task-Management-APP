@@ -14,5 +14,5 @@ To run the project follow below steps in sequence.
 `Task-Management-APP\ui\src\api\request.js`.
 
 
-This Project is upgraded to `react-app-rewired` so as to update the `webpack` configs in `config-override.js` file.
-Also this enables EsLint for the entire project.
+This Project is upgrade to `react-app-rewired` to update the `webpack` configs in `config-override.js` file.
+Also, this enables EsLint for the entire project.

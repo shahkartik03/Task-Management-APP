@@ -9,6 +9,12 @@ const request = axios.create({
 });
 
 // Not using this method for now, as ll the data in app is fetched from redux-store
+export function getMaxAllowedCount() {
+  return request({
+    url: "maxCountItem",
+    method: "get",
+  });
+}
 export function getItems() {
   return request({
     url: "items",

@@ -1,49 +1,8 @@
 {
-  "items": [
-    {
-      "id": "To_Do",
-      "name": "To Do",
-      "cards": [
-        {
-          "id": "c5",
-          "name": "c5"
-        },
-        {
-          "id": "p7",
-          "name": "p7"
-        },
-        {
-          "id": "c9",
-          "name": "c9"
-        },
-        {
-          "id": "p1",
-          "name": "p1"
-        }
-      ]
-    },
-    {
-      "id": "In_progress",
-      "name": "In progress",
-      "cards": []
-    },
-    {
-      "id": "complete",
-      "name": "complete",
-      "cards": [
-        {
-          "id": "p4",
-          "name": "p4"
-        },
-        {
-          "id": "c6",
-          "name": "c6"
-        },
-        {
-          "id": "c2",
-          "name": "c2"
-        }
-      ]
-    }
-  ]
+  "items": [],
+  "maxCountItem": {
+    "item": [
+      4
+    ]
+  }
 }
